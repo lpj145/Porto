@@ -37,50 +37,50 @@
 <a id="Introduction"></a>
 # Introduction
 
-**Porto SAP** is a modern Software Architectural Pattern, designed to help developers organize their Code in a highly maintainable way. Its main goal is to organize the business logic in a reusable way.
+**Porto SAP** Desenhado para ajudar os desenvolvedores a organizar seus códigos e projetado para manutenibilidade, este é um dos mais modernos **Padrão de arquitetura de software**, focado em organizar a camada lógica de negócios (bussiness lógic) e sua reutilização.
 
-Porto is a great alternatives to the standard MVC, for large and long term projects, as they tend to have higher complexity over time.
+Porto - mesmo em longos e complexos projetos, poderá economizar muito tempo sobre o entendimento do código, também é uma boa alternativa ao famoso padrão *MVC*.
 
-Porto inherits concepts from the MVC, DDD, ADR, Modular and Layered architectures. And it adheres to a list of convenient design principles such as SOLID, OOP, LIFT, DRY, CoC, GRASP, Generalization, High Cohesion and Low Coupling.
-
-
-Porto started as an experimental architecture, trying to solve the common problems developers face, when building medium to large web projects. While all modular architectures focuses on the reusability of the framework general functionality, Porto focuses on the reusability of the business logic itself.
+Porto - alguns conceitos foram herdados de MVC, DDD, ADR, arquiteturas modulares/camadas. Se você acha que para por aí, Porto também adere aos principios de design como: SOLID, OOP, LIFT, DRY, CoC, GRASP, Generalization, Com alta coesão e baixo acoplamento, demais não é ?
 
 
-> "Simplicity is prerequisite for reliability.” — Edsger Dijkstra  
+Porto - Mesmo estando em fase inicial e experimental, tenta resolver problemas comuns que os desenvolvedores enfretam, em quanto constroem pequenos/gigantes projetos da web. Em quanto todas as arquiteturas são focadas na reusabilidade e funcionalidades gerais do framework, Porto foca na reusabilidade das camaadas lógicas de negócio (business logic).
+
+
+> "Simplicidade é um pré-requisito para reusabilidade.” — Edsger Dijkstra  
 
 
 <br>
 
-Feedbacks & Contributions are welcomed and credited.
+Feedbacks & Contribuidores são bem vindos e creditados.
 
-**Let's make the developer's lives easier.**
+**Faça a vida de um desenvolvedor fácil.**
 
 
 <a id="Quality-Attributes"></a>
-# Advantages of using Porto (Quality Attributes):
+# Vantagens de usar Porto (Qualidade e Atributos):
 
-- Reusability of business logic (Containers) across multiple similar projects.
-- Easy to maintain and test (quickly modify existing features and debug your code).
-- Zero technical debt (low communication between developers).
-- Pluggable optional UI's in each Container, (start with Web App now and build an API later, or the opposite).
-- Decoupled code (editing X doesn’t break Y).
-- Separated business logic in multiple Container.
-- Scalable code (easy to modify and implement new features).
-- Easy framework upgrade (complete separation between the App and the framework via the Ship layer).
-- Easy to locate any feature/functionality. And to understand what's happening inside it.
-- Organized coupling between the internal classes "Components".
-- Slim classes "treating classes as functions" (extremely adhering to the single responsibility principle).
-- Uses the domain expert language when naming the classes "components".
-- Clear development workflow with predefined data flow and dependencies direction.
-- Very organized code base with zero code decoupling.
-- Easy to understand by any developer (no magic).
-
-
-## Some of Porto's features in short details:
+- Reusabilidade da camada lógica/negócio (Containers) sobre projetos similares.
+- Fácil de manter e testar (rápido para modificar uma feature existe e debugar seu código).
+- Sem débito para os técnicos (Na pratica talvez o autor se refira a uma comunicação pequena no time de desenvolvimento, dado que todas possam conhecer bem a estrutura do projeto).
+- Bem vindas UI's em cada Container, (Você inicia um WebApp e constroi sua API depos, ou inverso, simples não ?).
+- Desacoplamento do código (Editar X não será uma quebra para Y).
+- Camadas lógicas separadas em multiplos Containers.
+- Código escalavél (fácil de modificar, e de implementar novas features).
+- Atualize o framework sem problemas (Completa separação do App/Framework por causa da `Ship Layer`).
+- Fácil de localizar uma feature/functionality. E entender como funciona isto.
+- Acoplamento organizado dos componentes internos.
+- Classes pequenas "treating classes as functions" (Extremamente aderivel por causa do Single principle responsability ).
+- Domínio da linguagem ao nomear "componentes".
+- Harmoniozo fluxo de desenvolvimento com: dados predefinos, fluxo e direções de dependências.
+- Organizavél código baseado no desacoplamento zero.
+- Fácil para mander e entender por qualquer desenvolvedor (no magic... conheça o padrão).
 
 
-### Decoupling
+## Porto's e seus detalhes:
+
+
+### Desacoplamento
 
 Separation of concerns, is an important principle, Porto adheres to.
 
