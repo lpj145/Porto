@@ -90,7 +90,8 @@ Dado o entendimento, sua aplicação( camadas de negócio ) deve ser fatiada em 
 
 Cada Container é responsável por sua UI's (user interfaces) e por sua vez separada da lógica de negócios em cada container.
 
-###Falta traduzir
+### Falta traduzir
+
 Faça UI's (`WEB`, `API` & `CLI`) plugavéis, escreva sua lógica de negócio primeiro, depois faça sua UI interagir com seu código. Isto te da flexibilidade de suporta interfaces quando precisar, (exemplo: inicie com uma web interface, depois abra uma API), with the least effort possible. This is all possible because the `Actions` are the central organizing principle "not the controller" which are shared across multiple UI's.
 
 Code Levels:
